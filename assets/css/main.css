@@ -838,14 +838,14 @@ ul.for_ul2{
 
 		@media screen and (max-width: 480px) {
 
-			.main.style1 {
+			.style1 {
 				padding: 4em 15px 4em 15px;
 			}
 			.box.style2 {
 				text-align: left;
 			}
 			ul.for_ul2{
-				list-style-type: normal;
+				list-style-type: circle;
 			
 			}
 			.gal article {
