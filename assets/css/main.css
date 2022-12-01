@@ -670,7 +670,7 @@ ul.for_ul2{
 		
 		@media screen and (max-width: 736px) {
 			ul.for_ul2{
-				list-style-type: circle;
+				list-style-type: disc;
 			
 			}
 			.gal article {
@@ -686,7 +686,7 @@ ul.for_ul2{
 					text-align: left;
 				}
 				ul.for_ul2{
-					list-style-type: circle;
+					list-style-type: disc;
 				
 				}
 
@@ -857,14 +857,14 @@ ul.for_ul2{
 					width: calc(25% - 0.375em);
 				}
 	@media screen and (max-width: 480px) {
-		.style1 {
-			padding: 4em 15px 4em 15px;
+		.main.style1 {
+			padding: 8em 15px 8em 15px;
 		}
 		.box.style2 {
 			text-align: left;
 		}
 		ul.for_ul2{
-			list-style-type: circle;
+			list-style-type: disc;
 				
 		}
 		.gal article {
@@ -873,14 +873,14 @@ ul.for_ul2{
 	}
 	@media screen and (max-width: 600px) {
 
-		.style1 {
-			padding: 4em 15px 4em 15px;
+		.main.style1 {
+			padding: 6em 15px 6em 15px;
 		}
 		.box.style2 {
 			text-align: left;
 		}
 		ul.for_ul2{
-			list-style-type: circle;
+			list-style-type: disc;
 			
 		}
 		.gal article {
@@ -889,14 +889,12 @@ ul.for_ul2{
 	}	
 	@media screen and (max-width: 480px) {
 
-		.style1 {
-			padding: 4em 15px 4em 15px;
-		}
+		
 		.box.style2 {
 			text-align: left;
 		}
 		ul.for_ul2{
-			list-style-type: circle;
+			list-style-type: disc;
 			
 		}
 		.gal article {
@@ -1944,9 +1942,9 @@ ul.for_ul2{
 				flex-direction: column;
 			}
 
-				.gal article {
-					width: 100%;
-				}
+			.gal article {
+				width: 100%;
+			}
 
 		}
 
@@ -2263,7 +2261,7 @@ ul
 					display: none;
 				}
 				ul.for_ul2{
-					list-style-type: none;
+					list-style-type: disc;
 				
 				}
 				.main.style2 .content {
