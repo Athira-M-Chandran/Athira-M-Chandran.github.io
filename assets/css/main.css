@@ -526,6 +526,9 @@ ul.for_ul2{
 			body, input, textarea, select {
 				font-size: 17pt;
 			}
+			.gal article {
+				width: 50%;
+			}
 
 		}
 
@@ -533,6 +536,9 @@ ul.for_ul2{
 
 			body, input, textarea, select {
 				font-size: 15pt;
+			}
+			.gal article {
+				width: 50%;
 			}
 
 		}
@@ -542,6 +548,9 @@ ul.for_ul2{
 			body, input, textarea, select {
 				font-size: 13pt;
 			}
+			.gal article {
+				width: 50%;
+			}
 
 		}
 
@@ -549,6 +558,9 @@ ul.for_ul2{
 
 			body, input, textarea, select {
 				font-size: 13pt;
+			}
+			.gal article {
+				width: 50%;
 			}
 
 		}
@@ -558,6 +570,9 @@ ul.for_ul2{
 			body, input, textarea, select {
 				font-size: 12pt;
 				line-height: 1.5em;
+			}
+			.gal article {
+				width: 100%;
 			}
 
 		}
@@ -654,7 +669,13 @@ ul.for_ul2{
 		
 		
 		@media screen and (max-width: 736px) {
-
+			ul.for_ul2{
+				list-style-type: circle;
+			
+			}
+			.gal article {
+				width: 100%;
+			}
 			.box {
 				padding: 1em;
 			}
@@ -665,7 +686,7 @@ ul.for_ul2{
 					text-align: left;
 				}
 				ul.for_ul2{
-					list-style-type: none;
+					list-style-type: circle;
 				
 				}
 
@@ -835,62 +856,61 @@ ul.for_ul2{
 				form > .fields > .field.quarter {
 					width: calc(25% - 0.375em);
 				}
-		@media screen and (max-width: 480px) {
+	@media screen and (max-width: 480px) {
+		.style1 {
+			padding: 4em 15px 4em 15px;
+		}
+		.box.style2 {
+			text-align: left;
+		}
+		ul.for_ul2{
+			list-style-type: circle;
+				
+		}
+		.gal article {
+			width: 100%;
+		}
+	}
+	@media screen and (max-width: 600px) {
 
-					.style1 {
-						padding: 4em 15px 4em 15px;
-					}
-					.box.style2 {
-						text-align: left;
-					}
-					ul.for_ul2{
-						list-style-type: circle;
-					
-					}
-					.gal article {
-						width: 100%;
-					}
-				}
-		@media screen and (max-width: 600px) {
-
-			.style1 {
-				padding: 4em 15px 4em 15px;
-			}
-			.box.style2 {
-				text-align: left;
-			}
-			ul.for_ul2{
-				list-style-type: circle;
+		.style1 {
+			padding: 4em 15px 4em 15px;
+		}
+		.box.style2 {
+			text-align: left;
+		}
+		ul.for_ul2{
+			list-style-type: circle;
 			
-			}
-			.gal article {
-				width: 100%;
-			}	
+		}
+		.gal article {
+			width: 100%;
 		}	
-		@media screen and (max-width: 480px) {
+	}	
+	@media screen and (max-width: 480px) {
 
-			.style1 {
-				padding: 4em 15px 4em 15px;
-			}
-			.box.style2 {
-				text-align: left;
-			}
-			ul.for_ul2{
-				list-style-type: circle;
+		.style1 {
+			padding: 4em 15px 4em 15px;
+		}
+		.box.style2 {
+			text-align: left;
+		}
+		ul.for_ul2{
+			list-style-type: circle;
 			
-			}
-			.gal article {
-				width: 100%;
-			}
-			form > .fields {
-				width: calc(100% + 2em);
-				margin: -1em 0 2em -1em;
-			}
+		}
+		.gal article {
+			width: 100%;
+		}
+		form > .fields {
+			width: calc(100% + 2em);
+			margin: -1em 0 2em -1em;
+		}
 
-				form > .fields > .field {
-					padding: 1em 0 0 1em;
-					width: calc(100% - 1em);
-				}
+			form > .fields > .field {
+				padding: 1em 0 0 1em;
+				width: calc(100% - 1em);
+			}
 
 					form > .fields > .field.half {
 						width: calc(100% - 1em);
@@ -1512,7 +1532,7 @@ ul.for_ul2{
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			width: 50%;
+			
 			position: relative;
 			opacity: 1.0;
 		}
@@ -1924,7 +1944,7 @@ ul.for_ul2{
 				flex-direction: column;
 			}
 
-				.galarticle {
+				.gal article {
 					width: 100%;
 				}
 
