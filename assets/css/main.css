@@ -835,7 +835,38 @@ ul.for_ul2{
 				form > .fields > .field.quarter {
 					width: calc(25% - 0.375em);
 				}
+		@media screen and (max-width: 480px) {
 
+					.style1 {
+						padding: 4em 15px 4em 15px;
+					}
+					.box.style2 {
+						text-align: left;
+					}
+					ul.for_ul2{
+						list-style-type: circle;
+					
+					}
+					.gal article {
+						width: 100%;
+					}
+				}
+		@media screen and (max-width: 600px) {
+
+			.style1 {
+				padding: 4em 15px 4em 15px;
+			}
+			.box.style2 {
+				text-align: left;
+			}
+			ul.for_ul2{
+				list-style-type: circle;
+			
+			}
+			.gal article {
+				width: 100%;
+			}	
+		}	
 		@media screen and (max-width: 480px) {
 
 			.style1 {
