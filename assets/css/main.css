@@ -884,7 +884,7 @@ ul.for_ul2{
 			width: 100%;
 		}
 		section#intro{
-			background-size: contain;
+			background-size: 180% 100%;
 		}
 		
 
@@ -903,7 +903,7 @@ ul.for_ul2{
 			width: 100%;
 		}	
 		section#intro{
-			background-size: contain;
+			background-size: 200% 100%;
 		}
 		
 
