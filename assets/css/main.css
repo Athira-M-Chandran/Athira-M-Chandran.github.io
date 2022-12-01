@@ -870,6 +870,11 @@ ul.for_ul2{
 		.gal article {
 			width: 100%;
 		}
+		#intro{
+			background-size: contain;
+		}
+		
+
 	}
 	@media screen and (max-width: 600px) {
 
@@ -886,6 +891,11 @@ ul.for_ul2{
 		.gal article {
 			width: 100%;
 		}	
+		#intro{
+			background-size: contain;
+		}
+		
+
 	}	
 	@media screen and (max-width: 480px) {
 
@@ -2440,5 +2450,5 @@ ul
 			#contact .box {
 				padding: 1em 1em 2em 1em;
 			}
-
+			
 		}
