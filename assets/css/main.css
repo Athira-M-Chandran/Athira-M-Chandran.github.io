@@ -837,12 +837,19 @@ ul.for_ul2{
 				}
 
 		@media screen and (max-width: 480px) {
+
+			.main.style1 {
+				padding: 4em 15px 4em 15px;
+			}
 			.box.style2 {
 				text-align: left;
 			}
 			ul.for_ul2{
-				list-style-type: none;
+				list-style-type: normal;
 			
+			}
+			.gal article {
+				width: 100%;
 			}
 			form > .fields {
 				width: calc(100% + 2em);
